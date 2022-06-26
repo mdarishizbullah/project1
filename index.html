@@ -7,8 +7,9 @@
 	<link rel="stylesheet" type="text/css" href="framework/bootstrap/css/bootstrap.min.css">
 	<script type="text/javascript" scr="framework/bootstrap/js/bootstrap.min.js"></script>
 	</head>
-	<body>
+	<body class="container">
 		<!-- Header-->
+		<header class="row">
 		<nav class=" fixed-top">
 		   <div class="container-fluid card">
 		   <ul class="nav nav-pills nav-fill">
@@ -29,7 +30,7 @@
 						</a>
 					  </li>
 					  <li class="nav-item">
-						<a class="nav-link">
+						<a class="nav-link" href="#">
 							<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
 			  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
 							</svg>
@@ -40,9 +41,64 @@
 			</ul>
 			</div>
 		</nav>
-		<!--slide show-->
-
+		<nav class="disabled">
+		   <div class="container-fluid card">
+		   <ul class="nav nav-pills nav-fill">
+			  <li class="nav-item col-8">
+				<a class="nav-link">
+					<form>
+						<input type="search" class="form-control form-control-dark" placeholder="Cari makanan & minuman...">
+					</form>
+				</a>
+			  </li>
+			  <li class="nav-item">
+				<ul class="nav nav-pills nav-fill">
+					<li class="nav-item">
+						<a class="nav-link" href="#">
+							<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+					  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+							</svg>
+						</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="#">
+							<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+			  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+							</svg>
+						</a>
+					  </li>
+				</ul>
+			  </li>
+			</ul>
+			</div>
+		</nav>
+		
+		</header>
+		<!--konten-->
+		<div class="row">
+			<div class="container card">
+				<div class="row">
+					<div class="card col-6">
+					  <img src="..." class="card-img-top" alt="...">
+					  <div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					  </div>
+					</div>
+					<div class="card col-6">
+					  <img src="..." class="card-img-top" alt="...">
+					  <div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<!-- Footbar-->
+		
 		<div class="fixed-bottom">
 		   <div class="container card">
 		   <ul class="nav nav-pills nav-fill">
